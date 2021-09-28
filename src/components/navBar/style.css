@@ -33,9 +33,12 @@ header .logo{
     color:#666;
     
     ;justify-content: center;
+    font-size: 28px;
     
 }
-
+.navbar{
+    align-items: center;
+}
 
   header .navbar a:hover{
     color:var(--red);
