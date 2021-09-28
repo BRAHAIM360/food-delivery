@@ -1,19 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './style.css'
 
 function NavBar() {
+    const [menuClicked, setmenuClicked] = useState(false)
+    const onClickMenur=()=>{
+        setmenuClicked(!menuClicked)
+    }
     return (
         <div className="nav">
         
         <header>
-        <div className='left-nav'>
-        <a href="#" className="logo"><i className="fas fa-utensils"></i>food</a>
+      
+        <a href="#" className="logo"><i className="fas fa-utensils " ></i>food</a>
     
-        <div id="menu-bar" className="fas fa-bars"></div>
+        <div id="menu-bar" onClick={()=>onClickMenur()} className={menuClicked ?"fas fa-bars fa-times" :  "fas fa-bars"}></div>
 
-        </div>
-        <div className="right-nav">
-        <nav className="navbar" >
+       
+       
+        <nav className= {menuClicked ? "navbar active": "navbar " } >
             <a href="#home">home</a>
             <a href="#speciality">speciality</a>
             <a href="#popular">popular</a>
@@ -21,7 +25,7 @@ function NavBar() {
             <a href="#review">review</a>
             <a href="#order">order</a>
         </nav>
-        </div>
+      
     
     </header>
     
