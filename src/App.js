@@ -5,6 +5,7 @@ import React from 'react'
 import Home from './components/home';
 import Speciality from './components/speciality';
 import Popular from './components/popular';
+import WorkStep from './components/workStep';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 <Home/>
 <Speciality/>
 <Popular/>
+<WorkStep/>
    </div>
   );
 }

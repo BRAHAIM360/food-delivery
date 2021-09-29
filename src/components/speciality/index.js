@@ -14,8 +14,8 @@ const Speciality_Dishes = [
 function Speciality() {
     const redner_Dishes=()=>{
        
-        return( Speciality_Dishes.map((Dishe)=>{
-            return <DishesCard img={Dishe.img} title={Dishe.title} />
+        return( Speciality_Dishes.map((Dishe,index)=>{
+            return <DishesCard key={index} img={Dishe.img} title={Dishe.title} />
             
         }))
     }
@@ -26,7 +26,7 @@ function Speciality() {
         our <span>speciality</span>
       </h1>
 
-      <div class="box-container">
+      <div className="box-container">
          {redner_Dishes()}
     
 

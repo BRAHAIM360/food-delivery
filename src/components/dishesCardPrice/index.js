@@ -4,18 +4,18 @@ import './style.css'
 function DishesCardPrice({img,title,price}) {
   
     return (
-        <div class="box">
-            <span class="price">{price}</span>
+        <div className="box">
+            <span className="price">{price}</span>
             <img src={img} alt=""/>
             <h3>{title}</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
+            <div className="stars">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="far fa-star"></i>
             </div>
-            <a href="#" class="btn">order now</a>
+            <a className="btn">order now</a>
         </div>
           )
 }

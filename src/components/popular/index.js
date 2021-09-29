@@ -10,16 +10,16 @@ const Speciality_Dishes = [
     { img: "images/p-4.jpg", title: "cold drinks" ,price:"$7 - $20"},
     { img: "images/p-5.jpg", title: "tasty sweets",price:"$8 - $23" },
     { img: "images/p-6.jpg", title: "healty breakfast" ,price:"$3 - $20"},
-     { img: "images/p-1.jpg", title: "tasty burger",price:"$7 - $10" },
+    { img: "images/p-3.jpg", title: "cold ice-creamm",price:"$6 - $24" },
+    
     
   ]
   
 
 function Popular() {
     const redner_Dishes=()=>{
-       console.log("hi")
         return( Speciality_Dishes.map((Dishe)=>{
-            return <DishesCardPrice img={Dishe.img} title={Dishe.title} price={Dishe.price}  />
+            return <DishesCardPrice key={Dishe.title} img={Dishe.img} title={Dishe.title} price={Dishe.price}  />
             
         }))
     }
@@ -28,11 +28,11 @@ function Popular() {
     return (
 
 
-<section class="popular" id="popular">
+<section className="popular" id="popular">
 
-    <h1 class="heading"> most <span>popular</span> foods </h1>
+    <h1 className="heading"> most <span>popular</span> foods </h1>
 
-    <div class="CardPrice">
+    <div className="CardPrice">
 
         {redner_Dishes()}
 
