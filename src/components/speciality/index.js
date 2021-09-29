@@ -23,8 +23,7 @@ function Speciality() {
     return (
     <section className="speciality" id="speciality">
       <h1 className="heading">
-        {" "}
-        our <span>speciality</span>{" "}
+        our <span>speciality</span>
       </h1>
 
       <div class="box-container">
