@@ -4,13 +4,13 @@ import './style.css'
 
 
 const Speciality_Dishes = [
-    { img: "images/p-1.jpg", title: "tasty burger",price:"DA7 - DA10" },
-    { img: "images/p-2.jpg", title: "tasty pizza" ,price:"DA5 - DA20"},
-    { img: "images/p-3.jpg", title: "cold ice-cream",price:"DA6 - DA24" },
-    { img: "images/p-4.jpg", title: "cold drinks" ,price:"DA7 - DA20"},
-    { img: "images/p-5.jpg", title: "tasty sweets",price:"DA8 - DA23" },
-    { img: "images/p-6.jpg", title: "healty breakfast" ,price:"DA3 - DA20"},
-    { img: "images/p-3.jpg", title: "cold ice-creamm",price:"DA6 - DA24" },
+    { img: "images/p-1.jpg", title: "tasty burger",price:"7DA - 10DA" },
+    { img: "images/p-2.jpg", title: "tasty pizza" ,price:"5DA - 20DA"},
+    { img: "images/p-3.jpg", title: "cold ice-cream",price:"6DA - 24DA" },
+    { img: "images/p-4.jpg", title: "cold drinks" ,price:"7DA - 20DA"},
+    { img: "images/p-5.jpg", title: "tasty sweets",price:"8DA - 23DA" },
+    { img: "images/p-6.jpg", title: "healty breakfast" ,price:"3DA - 20DA"},
+    { img: "images/p-3.jpg", title: "cold ice-creamm",price:"6DA - 24DA" },
     
     
   ]
