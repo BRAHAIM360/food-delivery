@@ -9,6 +9,26 @@ header{
   padding:2rem 9%;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
+header .left{
+  display: flex;
+  justify-content: space-between;
+}
+
+header .left div{
+ margin-right:60px;
+ text-align: center;
+ vertical-align: middle;
+ font-size: 2rem;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+}
+
+header .left div img{
+  height: 20px;
+ margin-right: 2px;
+ 
+ }
 
 header .logo{
   font-size: 2.5rem;

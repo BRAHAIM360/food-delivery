@@ -10,9 +10,11 @@ function NavBar() {
         <div className="nav">
         
         <header>
-      
+            
+        <div className="left">
+       <div><img src="global.svg"/> EN</div>
         <a href="#" className="logo"><i className="fas fa-utensils " ></i>food</a>
-    
+        </div>
         <div id="menu-bar" onClick={()=>onClickMenur()} className={menuClicked ?"fas fa-bars fa-times" :  "fas fa-bars"}></div>
 
        
